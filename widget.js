@@ -32,10 +32,11 @@ function preparePage(script, styles, widget) {
 }
 
 function initializeWidget () {
-    const script = createScriptTag("/dist/assets/index.js")
-    const styles = createStylesTag("/dist/assets/index.css")
-    const widget = createWidgetTag()
-    preparePage(script, styles, widget)
+    // const script = createScriptTag("/dist/assets/index.js")
+    // const styles = createStylesTag("/dist/assets/index.css")
+    // const widget = createWidgetTag()
+    // preparePage(script, styles, widget)
+    console.log("hi")
 }
 
 initializeWidget()
