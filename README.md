@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+## Описание виджета
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Виджет загружает необходимые JavaScript и CSS файлы для корректного отображения и работы. Он добавляет на страницу блок, в котором отображается весь функционал.
 
-Currently, two official plugins are available:
+## Инструкция по интеграции
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Скопируйте следующий код:
+   ```html
+   <script src="https://razmikunanyan.github.io/pharmacy/widget.js"></script>
 
-## Expanding the ESLint configuration
+2. Пример:
+    ```html
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>My Website</title>
+   </head>
+   <body>
+       <!-- Ваш контент страницы -->
+   
+       <!-- Вставьте этот скрипт в самый конец тега body -->
+       <script src="https://razmikunanyan.github.io/pharmacy/widget.js"></script>
+   </body>
+   </html>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
