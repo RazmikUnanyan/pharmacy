@@ -4,11 +4,13 @@
 
 ## Инструкция по интеграции
 
-1. Скопируйте следующий код:
+1. Скопируйте и вставьте следующий код непосредственно перед закрывающим тегом body:
+   
    ```html
    <script src="https://razmikunanyan.github.io/pharmacy/widget.js"></script>
 
 2. Пример:
+
     ```html
    <!DOCTYPE html>
    <html lang="en">
