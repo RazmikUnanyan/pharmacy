@@ -12,7 +12,7 @@ export const Widget:FC = () => {
                   <h3>How can we help?</h3>
             </div>
             <Button variant="secondary">
-                <i>{isOpenWidget ? ">" : "?"}</i>
+                <i>{"?"}</i>
             </Button>
         </div>
     );
