@@ -1,7 +1,7 @@
 @use "../../styles/abstracts" as *;
 
 .container {
-  font-size: 16px;
-  line-height: 17px;
+  font-size: $fs-primary;
+  line-height: $lh-secondary;
   color: $cl-primary;
 }

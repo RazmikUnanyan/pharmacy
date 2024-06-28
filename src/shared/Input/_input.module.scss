@@ -1,16 +1,18 @@
+@use "../../styles/abstracts" as *;
+
 .inputWrapper {
   display: flex;
   flex-direction: column;
 }
 
 .label {
-  font-size: 24px;
+  font-size: $fs-label;
   margin-bottom: 5px;
 }
 
 .input {
-  padding: 15px;
-  font-size: 16px;
+  padding: $padding-secondary;
+  font-size: $fs-primary;
   border: none;
   border-radius: 4px;
 }

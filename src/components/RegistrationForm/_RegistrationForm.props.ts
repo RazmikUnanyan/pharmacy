@@ -1,3 +1,3 @@
-import {IModalProps} from "../../shared/Modal/_Modal.props.ts";
+import { IModalProps } from "../../shared/Modal/_Modal.props.ts";
 
-export interface IRegistrationProps extends Omit<IModalProps, 'children'>{}
+export interface IRegistrationProps extends Omit<IModalProps, "children"> {}

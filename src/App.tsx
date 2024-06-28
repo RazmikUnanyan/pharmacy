@@ -1,5 +1,5 @@
-import {Widget} from "./components";
+import { Widget } from "./components";
 
-const App = () => <Widget/>;
+const App = () => <Widget />;
 
-export default App
+export default App;

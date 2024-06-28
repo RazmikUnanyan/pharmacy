@@ -1,1 +1,1 @@
-export * from './_RegistrationForm.tsx';
+export * from "./_RegistrationForm.tsx";

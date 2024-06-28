@@ -1,29 +1,27 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-import './styles/reset.scss'
+import App from "./App.tsx";
+import "./styles/reset.scss";
 
+ReactDOM.createRoot(document.getElementById('widget-pharmacy')!).render(
+    <React.StrictMode>
+        <App />
+    </React.StrictMode>,
+)
 
-
-// ReactDOM.createRoot(document.getElementById('widget-pharmacy')!).render(
+// declare global {
+//   interface Window {
+//     renderPharmacyWidget: () => void;
+//   }
+// }
+//
+// const renderPharmacyWidget = () => {
+//   ReactDOM.createRoot(document.getElementById("widget-pharmacy")!).render(
 //     <React.StrictMode>
-//         <App />
-//     </React.StrictMode>,
-// )
-
-declare global {
-    interface Window {
-        renderPharmacyWidget: () => void;
-    }
-}
-
-const renderPharmacyWidget = () => {
-    ReactDOM.createRoot(document.getElementById('widget-pharmacy')!).render(
-        <React.StrictMode>
-            <App />
-        </React.StrictMode>,
-    )
-};
-
-window.renderPharmacyWidget = renderPharmacyWidget;
+//       <App />
+//     </React.StrictMode>
+//   );
+// };
+//
+// window.renderPharmacyWidget = renderPharmacyWidget;

@@ -1,1 +1,1 @@
-export * from './_registration.interface.ts';
+export * from "./_registration.interface.ts";

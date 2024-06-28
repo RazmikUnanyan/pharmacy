@@ -1,4 +1,4 @@
 export interface IRegistrationForm {
     name: string;
-    phone: string;
+    phone: number | string;
 }

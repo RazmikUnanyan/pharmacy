@@ -1,3 +1,5 @@
+@use "../../styles/abstracts" as *;
+
 .modalOverlay {
   position: fixed;
   top: 0;
@@ -21,7 +23,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: $gap-primary;
 }
 
 .closeButton {
@@ -31,6 +33,6 @@
   justify-content: end;
   background: none;
   border: none;
-  font-size: 40px;
+  font-size: $fs-secondary;
   cursor: pointer;
 }
