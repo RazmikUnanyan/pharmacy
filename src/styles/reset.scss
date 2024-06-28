@@ -22,6 +22,13 @@ input,
 textarea {
   font-family: $ff-primary;
   font-size: $fs-primary;
+  outline:none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 body {
@@ -31,12 +38,12 @@ body {
 }
 
 i {
-  color: $cl-secondary;
+  color: $cl-white;
 }
 
 h1, h2, h3 {
-  color: $cl-secondary;
-  font-weight: 400;
+  color: $cl-primary;
+  font-weight: 700;
   line-height: 1.2;
 }
 
@@ -60,7 +67,6 @@ img {
   vertical-align: middle;
 }
 
-/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
     scroll-behavior: auto;

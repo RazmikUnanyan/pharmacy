@@ -1,24 +1,15 @@
 @use "../../styles/abstracts" as *;
 
-.button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: $cl-primary;
-}
-
 .primary {
   border-radius: 20%;
+  background: none;
 }
 
 .secondary {
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  transition: 0.3s;
-}
-
-.secondary:hover {
-  width: 50px;
-  height: 50px;
+  display: inline-block;
+  padding: 16px 30px;
+  border-radius: 100px;
+  text-transform: uppercase;
+  background-color: $cl-secondary;
+  color: $cl-white;
 }

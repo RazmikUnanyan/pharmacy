@@ -1,0 +1,16 @@
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.input {
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+}
