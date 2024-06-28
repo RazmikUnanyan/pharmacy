@@ -1,5 +1,4 @@
-import {FC, useState} from "react";
-import cn from 'classnames';
+import {FC} from "react";
 import {Button} from "../../shared";
 
 import styles from './_Widget.module.scss';
