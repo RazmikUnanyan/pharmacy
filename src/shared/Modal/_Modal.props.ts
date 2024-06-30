@@ -1,7 +1,7 @@
-import {DetailedHTMLProps, HTMLAttributes, ReactNode} from "react";
+import { DetailedHTMLProps, HTMLAttributes, ReactNode } from "react";
 
 export interface IModalProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement> {
-    isOpen: boolean;
-    onClose: () => void;
-    children: ReactNode;
+  isOpen: boolean;
+  onClose: () => void;
+  children: ReactNode;
 }

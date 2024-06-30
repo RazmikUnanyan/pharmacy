@@ -1,4 +1,3 @@
-import {AnchorHTMLAttributes, DetailedHTMLProps} from "react";
+import { AnchorHTMLAttributes, DetailedHTMLProps } from "react";
 
-export interface ILinkProps extends DetailedHTMLProps<AnchorHTMLAttributes<HTMLAnchorElement>, HTMLAnchorElement> {
-}
+export interface ILinkProps extends DetailedHTMLProps<AnchorHTMLAttributes<HTMLAnchorElement>, HTMLAnchorElement> {}
